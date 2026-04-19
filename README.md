@@ -1,4 +1,3 @@
-5. README (USE THIS — COPY)
 📊 Customer Sentiment & Review Intelligence Engine
 
 End-to-end NLP project to analyze customer reviews and extract actionable business insights using sentiment analysis and text mining.
@@ -37,9 +36,7 @@ Word Cloud
 Positive reviews emphasize product quality and taste
 Negative reviews highlight issues related to packaging and consistency
 Neutral reviews often reflect mixed experiences
+
 ▶️ How to Run
 pip install -r requirements.txt
 python main.py
-🌍 Business Impact
-
-This project demonstrates how customer feedback can be transformed into actionable insights to improve product quality, customer experience, and business decision-making.
