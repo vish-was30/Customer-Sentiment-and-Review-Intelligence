@@ -61,6 +61,9 @@ This project analyzes customer reviews from the Amazon Fine Food Reviews dataset
 | Logistic Regression |  ~79%   | Balanced performance across all classes |
 | Naive Bayes         |  ~83%   | Poor performance on Neutral/Negative    |
 
+
+👉 Logistic Regression was selected due to better real-world reliability.
+
 ## 📈 Visualizations
 
 ### Sentiment Distribution
@@ -75,9 +78,10 @@ This project analyzes customer reviews from the Amazon Fine Food Reviews dataset
 
 ## 🔍 Key Insights
 
-* Majority of reviews are positive, indicating strong product satisfaction
-* Negative feedback is primarily driven by product quality and consistency issues
-* Improved detection of neutral/negative sentiment enables better identification of customer pain points
+- Majority of reviews are positive → strong product satisfaction  
+- Negative reviews highlight quality and consistency issues  
+- Balanced model improves detection of customer dissatisfaction  
+- Helps businesses identify actionable improvement areas 
 
 ---
 
@@ -96,11 +100,10 @@ Download from: https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
 
 ---
 
-## 🔮 Future Improvements
-
-* Deploy as an interactive dashboard (Streamlit)
-* Use advanced NLP models (e.g., BERT)
-* Real-time sentiment analysis pipeline
+🔮 Future Improvements
+-Deploy as a Streamlit dashboard
+-Use advanced NLP models (BERT)
+-Real-time sentiment monitoring pipeline
 
 ---
 
