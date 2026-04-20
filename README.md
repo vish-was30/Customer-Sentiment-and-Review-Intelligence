@@ -1,42 +1,92 @@
-📊 Customer Sentiment & Review Intelligence Engine
+# 📊 Customer Sentiment & Review Intelligence
 
-End-to-end NLP project to analyze customer reviews and extract actionable business insights using sentiment analysis and text mining.
+## 📌 Overview
 
-📌 Overview
+This project analyzes customer reviews from the Amazon Fine Food Reviews dataset to extract sentiment insights and build a machine learning model for sentiment classification.
 
-This project analyzes customer reviews from the Amazon Fine Food dataset to understand customer sentiment and identify key drivers of satisfaction and dissatisfaction.
+---
 
-🎯 Objectives
-Perform sentiment classification using review ratings
-Clean and preprocess textual data
-Visualize sentiment distribution
-Extract key themes from customer feedback
-Generate business insights
+## 🎯 Objectives
 
-🛠️ Tech Stack
-Python
-Pandas, NumPy
-NLTK
-Matplotlib, Seaborn
-WordCloud
+* Analyze customer sentiment from textual reviews
+* Identify key drivers of positive and negative feedback
+* Build and evaluate a sentiment classification model
+* Generate actionable business insights
 
-📊 Key Features
-Text preprocessing pipeline
-Sentiment classification (Positive / Neutral / Negative)
-Word cloud visualization
-Top keyword extraction
-Insight generation from customer reviews
+---
 
-📈 Results
-Sentiment Distribution
+## 🛠️ Tech Stack
 
-Word Cloud
+* Python
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* Scikit-learn (TF-IDF, Logistic Regression)
 
-🧠 Key Insights
-Positive reviews emphasize product quality and taste
-Negative reviews highlight issues related to packaging and consistency
-Neutral reviews often reflect mixed experiences
+---
 
-▶️ How to Run
+## ⚙️ Methodology
+
+1. **Data Preprocessing**
+
+   * Cleaned review text (lowercasing, removing noise)
+   * Handled missing values
+
+2. **Feature Engineering**
+
+   * Converted text into numerical features using TF-IDF
+   * Used unigrams + bigrams for better context capture
+
+3. **Modeling**
+
+   * Trained Logistic Regression model
+   * Applied class balancing to handle imbalanced data
+
+4. **Evaluation**
+
+   * Compared with Naive Bayes model
+   * Selected best model based on recall and F1-score
+
+---
+
+## 📊 Model Performance
+
+* Accuracy: ~79%
+* Strong performance across all sentiment classes
+* Significant improvement in detecting neutral and negative reviews after class balancing
+
+---
+
+## 🔍 Key Insights
+
+* Majority of reviews are positive, indicating strong product satisfaction
+* Negative feedback is primarily driven by product quality and consistency issues
+* Improved detection of neutral/negative sentiment enables better identification of customer pain points
+
+---
+
+## 🚀 How to Run
+
+```bash
 pip install -r requirements.txt
 python main.py
+```
+---
+
+## 📥 Dataset
+
+Dataset not included due to size.
+Download from: https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews
+
+---
+
+## 🔮 Future Improvements
+
+* Deploy as an interactive dashboard (Streamlit)
+* Use advanced NLP models (e.g., BERT)
+* Real-time sentiment analysis pipeline
+
+---
+
+## 💼 Business Impact
+
+This project demonstrates how NLP and machine learning can be used to transform unstructured customer feedback into actionable insights, helping businesses improve product quality and customer experience.
