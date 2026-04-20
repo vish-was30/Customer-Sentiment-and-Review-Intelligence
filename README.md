@@ -54,6 +54,13 @@ This project analyzes customer reviews from the Amazon Fine Food Reviews dataset
 * Strong performance across all sentiment classes
 * Significant improvement in detecting neutral and negative reviews after class balancing
 
+## 🔍 Model Comparison
+
+| Model               | Accuracy| Key Observation |
+|---------------------|---------|-----------------------------------------|
+| Logistic Regression |  ~79%   | Balanced performance across all classes |
+| Naive Bayes         |  ~83%   | Poor performance on Neutral/Negative    |
+
 ## 📈 Visualizations
 
 ### Sentiment Distribution
