@@ -54,6 +54,16 @@ This project analyzes customer reviews from the Amazon Fine Food Reviews dataset
 * Strong performance across all sentiment classes
 * Significant improvement in detecting neutral and negative reviews after class balancing
 
+## 📈 Visualizations
+
+### Sentiment Distribution
+![Sentiment Distribution](images/sentiment_distribution.jpg)
+
+---
+
+### Word Cloud
+![Word Cloud](images/wordcloud.jpg)
+
 ---
 
 ## 🔍 Key Insights
